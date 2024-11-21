@@ -1,0 +1,68 @@
+a {
+  color: #0000ff;
+}
+a:hover {
+  cursor: pointer;
+  color: #7777ff;
+}
+
+a.nav-link {
+  padding: 0.2em 0.65em;
+  border-radius: 0.35em;
+  background-color: #222222;
+  color: #ffffff;
+}
+
+a.logo{
+  background-color: rgba(0, 0, 0, 0);
+  color: #2176FF;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #00aaff;
+}
+
+.btn {
+  transition-property: padding, font-size;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  padding: 0.5em 1.5em;
+  border-radius: 1em;
+  background-color: rgba(200, 200, 255, 0.45);
+  color: #333333;
+  font-size: 1.5em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn:hover {
+  padding: 0.15em 0.4em;
+  font-size: 2em;
+  background-color: rgba(100, 100, 255, 0.75);
+  color: #fff;
+}
+
+.btn:active {
+  color: #000;
+}
+
+.activity {
+  transtition-property: font-size, font-weight, background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  font-weight: 400;
+}
+
+.activity:hover {
+  color: #333;
+  font-size: 3em;
+  font-weight: 1000;
+  background-color: #8bf;
+}
+
+.activity:active {
+  transition-duration: 0.05s;
+  transition-timing-function: linear;
+  color: #fff;
+  background-color: #222;
+}
